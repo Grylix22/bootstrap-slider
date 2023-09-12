@@ -1,3 +1,5 @@
+const bootstrap = window.bootstrap = require('bootstrap');
+
 // slider move carousel time control
 const carouselWrapp = document.querySelector('#main-carousel')
 let carousel = new bootstrap.Carousel(carouselWrapp, {
@@ -10,7 +12,7 @@ let isPlaying = true;
 carousel.cycle();
 
 
-// slider buttons control
+// slider button control
 
 // pause 
 function sliderPause() {
